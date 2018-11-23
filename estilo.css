@@ -1,0 +1,151 @@
+*
+    {
+    	margin:0px;
+    	padding:0px;
+    }
+    nav
+    {
+        width:200px;
+        font-family:arial,georgia,helvetica;
+        line-height:1.5;
+        
+  
+    }
+    .vmenu h4
+    {
+        background:#fff;
+        width:200px;
+        color:#fff;
+        font-size:large;
+        font-weight:500;
+        padding:7px 15px; 
+        background:#a90329;
+        
+       	
+    }
+    .vmenu h4 a
+    {
+        text-decoration:none;
+        color:White;
+        width:200px;
+        display:block;
+        
+
+    }
+    .vmenu h4:hover
+    {
+       background:#cc002c; 	
+    	
+    }
+    .vmenu ol
+    {
+        background:purple;	
+        font-size:13px;
+        font-height:30px;
+        list-style-type:none;
+        padding:0px;
+        overflow:hidden;
+        height:0px;
+        transition:height 1s ease;
+        
+        	
+    }
+    .vmenu ol a
+    {
+    	color:white;
+    	text-decoration:none;
+    	width:200px;
+    	margin-left:50px;
+    	font-size:large;
+    	height:30px;
+     		
+    }
+    .vmenu li
+    {
+        border-bottom:solid 2px #eee;
+        	
+    }
+    .vmenu li:hover
+    {
+        background:orange;	
+    }
+    .vmenu:hover #s3
+    {
+        height:93px;
+           	
+    }
+     .vmenu:hover #s4
+    {
+        height:124px;
+           	
+    }
+
+    /*   
+
+	MENU
+
+
+      */
+.caja {
+     width: 90%; 
+     height: 40em; 
+     border: 0.5px solid #555; 
+     background: #9e9e9e;
+     transform: skew(0deg,-5deg);
+     margin: 0 auto;
+     margin-top: 6em;
+}
+
+.carousel {
+    position: relative !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+    margin-left: 23em !important;
+    margin-top: -7em !important;
+    transform: skew(0deg,5deg) !important;
+}
+
+.imagenes img{
+    width: 98% !important;
+    transform: skew(0deg,5deg) !important;
+    visibility: hidden;
+  }
+
+@media (max-width: 680px) {
+
+  .caja{
+    height: 40em;
+  }
+
+  .carousel{
+    transform: skew(0deg,5deg) !important;
+  }
+}
+
+
+@media (max-width: 450px) {
+
+  .caja{
+    height: 62em;
+  }
+
+  nav{
+    width: 98% !important;
+        transform: skew(0deg,5deg) !important;
+        margin-top: 2em;
+        margin: 2em auto !important;
+  }
+  .vmenu h4{
+    width: 98% !important;
+    margin: 0.3em auto !important;
+  }
+
+   .carousel{
+    visibility: hidden;
+  }
+
+  .imagenes img{
+    visibility: visible !important;
+    margin: 0.1em auto !important;
+  }
+}
